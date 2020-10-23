@@ -1,0 +1,18 @@
+.Menu {
+    background-color: #f2cacb;
+    font-weight: border;
+}
+
+.Menu ul{
+    display: flex;
+}
+
+.Menu ul li {
+    list-style: none;
+}
+
+.Link-css {
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+}
