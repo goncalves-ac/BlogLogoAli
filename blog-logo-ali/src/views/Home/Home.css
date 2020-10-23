@@ -1,5 +1,5 @@
 * {
-    position: relative;
+
 }
 
 .Home {
@@ -7,9 +7,12 @@
 }
 
 .cards-container {
-
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin-top: 100px;
+    width: 90%;
 }
