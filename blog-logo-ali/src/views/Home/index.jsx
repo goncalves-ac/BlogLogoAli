@@ -15,6 +15,7 @@ function Home(){
             <section className="cards-container">
                 {data.map((prop)=>{
                 return <Card 
+                        key={prop.id}
                         imagem={prop.imagem}
                         titulo={prop.titulo}
                         descricao={prop.descricao}
