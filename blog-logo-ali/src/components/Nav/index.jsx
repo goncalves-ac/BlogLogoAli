@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './nav.css';
 import Logo from '../../image/logo.png';
 import Pesquisa from '../Pesquisa'
@@ -10,7 +11,7 @@ function Nav () {
             <ul>
                 <li><img className='logo' src={Logo} /></li>
                 <Pesquisa />
-                <li><a className='Link-css' to="/" >Home</a></li>
+                <li><Link className='Link-css' to="/" >Home</Link></li>
             </ul>
         </nav>
     );
