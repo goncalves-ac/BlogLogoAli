@@ -4,7 +4,7 @@ import './card.css'
 const Card = (data) => {
     return(
         <div className="card">
-            <img className="imagem" src={data.imagem} />
+            <img className="imagem" src={data.imagem} alt={data.titulo} />
             <span className="titulo" ><b>{data.titulo}</b></span>
             <span className="descricao" >{data.descricao}</span>
             <span className="autor"><i>{data.autor}</i></span>
