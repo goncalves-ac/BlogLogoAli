@@ -1,0 +1,21 @@
+.sidebar {
+    position: absolute;
+    top: 15vh;
+    right: 0vw;
+    width: 15vw;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    padding-inline-start: 0.5em;
+}
+
+.sidebar li {
+    text-align: center;
+    list-style: none;
+    background-color: rgb(238, 221, 223);
+    border-bottom: 0.1px solid #FFFFFF;
+}
