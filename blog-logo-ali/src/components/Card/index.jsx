@@ -7,7 +7,7 @@ const Card = (data) => {
             <img className="imagem" src={data.imagem} alt={data.titulo} />
             <span className="titulo" ><b>{data.titulo}</b></span>
             <span className="descricao" >{data.descricao}</span>
-            <span className="autor"><i>{data.autor}</i></span>
+            <span className="autor">Autor(a): <i>{data.autor}</i></span>
         </div>
     )
 }
