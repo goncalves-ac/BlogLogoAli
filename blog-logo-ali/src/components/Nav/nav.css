@@ -1,10 +1,18 @@
 .Menu {
-    background-color: #f2cacb;
     font-weight: border;
+    box-shadow: 0 2px 3px #444;
+    background-color: #8f4f60;
+    color: #eee;
 }
 
 .Menu ul{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .Menu ul li {
@@ -12,7 +20,13 @@
 }
 
 .Link-css {
-    color: #FFF;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: border;
     padding: 10px;
     text-decoration: none;
+}
+
+.logo {
+    width: 100px;
 }

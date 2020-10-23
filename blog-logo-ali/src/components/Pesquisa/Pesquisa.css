@@ -1,0 +1,16 @@
+.container-pesquisa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Pesquisa {
+    height: 4vh;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
