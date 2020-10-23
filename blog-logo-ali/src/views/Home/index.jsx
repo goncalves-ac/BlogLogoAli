@@ -23,8 +23,8 @@ function Home(){
                 })}
             </section>
 
+            <Sidebar/>
             <Footer />
-            <Sidebar />
         </main>               
     )
 }
