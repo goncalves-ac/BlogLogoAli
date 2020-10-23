@@ -7,7 +7,7 @@ const Sidebar = () => {
         <nav className="sidebar">
             <h2>Postagens</h2>
             <ul className="posts-list">
-                <ul class="month-list">
+                <ul className="month-list">
                     <p>Outubro</p>
                     <li>Viagem para Paris</li>
                     <li>Viagem para Roma</li>
