@@ -1,8 +1,10 @@
 .sidebar {
     position: absolute;
-    top: 15vh;
+    top: 13.5vh;
     right: 0vw;
     width: 15vw;
+    height: 86.5vh;
+    background-color: rgb(240, 208, 212);
 }
 
 .sidebar h2 {
@@ -10,10 +12,15 @@
 }
 
 .sidebar ul {
+    padding-inline-start: 0em;
+}
+
+.month-list p{
     padding-inline-start: 0.5em;
 }
 
 .sidebar li {
+    margin-top: 0.5em;
     text-align: center;
     list-style: none;
     background-color: rgb(238, 221, 223);
