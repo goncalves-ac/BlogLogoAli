@@ -13,18 +13,22 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.imagem{
-    width: 100%;
+#imagem{
+    width: 60vw;
+    height: 70vh;
+
+    margin-top: 10px;
 }
 
-.titulo{
+#titulo{
     font-size: 24px;
 }
 
-.descricao{
+#descricao{
     font-size: 22px;
 }
 
-.autor{
+#autor{
     font-size: 20px;
+    margin-bottom: 5px;
 }
