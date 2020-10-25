@@ -6,26 +6,27 @@ import Sidebar from "../../components/SideBar";
 import Card from "../../components/Card"
 
 import './Home.css'
-
+//
 function Home(){
+    console.log(data)
     return(
         <main className="Home">      
             <Nav />
 
             <section className="cards-container">
-                {data.map((prop)=>{
+                {data.map((props)=>{
                 return <Card 
-                        key={prop.id}
-                        imagem={prop.imagem}
-                        titulo={prop.titulo}
-                        descricao={prop.descricao}
-                        autor={prop.autor}
+                        key={props.id}
+                        imagem={props.imagem}
+                        titulo={props.titulo}
+                        descricao={props.descricao}
+                        autor={props.autor}
                     />
                 })}
             </section>
 
-            <Sidebar/>
-            <Footer />
+            <Sidebar data={data}/>
+            <Footer/>
         </main>               
     )
 }
