@@ -3,6 +3,7 @@ import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 import data from "../../data.json";
 import Sidebar from "../../components/SideBar";
+
 import Card from "../../components/Card";
 
 import "./Home.css";
