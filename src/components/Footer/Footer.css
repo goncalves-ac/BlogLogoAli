@@ -1,11 +1,11 @@
 .Footer {
-    display: fixed;
-    height: 18vh;
-    width: 100%;
-    background-color: #444;
-    color: #eee;
-    text-align: center;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    z-index:1;
+  height: 18vh;
+  width: 100%;
+  background-color: #444;
+  color: #eee;
+  text-align: center;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  position: absolute;
+  z-index: 1000;
 }
