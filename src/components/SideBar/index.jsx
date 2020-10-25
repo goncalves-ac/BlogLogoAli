@@ -9,7 +9,7 @@ const Sidebar = (props) => {
             <h2>POSTAGENS</h2>
             <ul className="posts-list">
                 <ul className="month-list">
-                    <div className="mes"><p>Outubro</p></div>
+                    <div className="mes"><span className="month">Outubro</span></div>
                     { 
                         data.map((destino) => {
                             return <li>{destino.titulo}</li>;
