@@ -37,7 +37,7 @@ function Home() {
         })}
       </section>
 
-      <Sidebar />
+      <Sidebar data={data} />
       <Footer />
     </main>
   );
