@@ -24,17 +24,21 @@ function Home() {
       <Nav filterData={filterData} />
 
       <section className="cards-container">
-        {posts.map((prop) => {
-          return (
-            <Card
-              key={prop.id}
-              imagem={prop.imagem}
-              titulo={prop.titulo}
-              descricao={prop.descricao}
-              autor={prop.autor}
-            />
-          );
-        })}
+        {posts.length != 0 ? (
+          posts.map((prop) => {
+            return (
+              <Card
+                key={prop.id}
+                imagem={prop.imagem}
+                titulo={prop.titulo}
+                descricao={prop.descricao}
+                autor={prop.autor}
+              />
+            );
+          })
+        ) : (
+          <b>Nenhum post encontrado!</b>
+        )}
       </section>
 
       <Sidebar data={data} />
