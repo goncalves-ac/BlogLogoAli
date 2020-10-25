@@ -4,10 +4,10 @@ import './card.css'
 const Card = (data) => {
     return(
         <div className="card">
-            <img className="imagem" src={data.imagem} alt={data.titulo} />
-            <span className="titulo" ><b>{data.titulo}</b></span>
-            <span className="descricao" >{data.descricao}</span>
-            <span className="autor">Autor(a): <i>{data.autor}</i></span>
+            <img id="imagem" src={data.imagem} alt={data.titulo} />
+            <span id="titulo" ><b>{data.titulo}</b></span>
+            <span id="descricao" >{data.descricao}</span>
+            <span id="autor">Autor(a): <i>{data.autor}</i></span>
         </div>
     )
 }
