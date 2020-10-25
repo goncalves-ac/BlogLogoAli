@@ -1,20 +1,23 @@
-import React, { useState } from 'react';
-import './Pesquisa.css'
+import React, { useState } from "react";
+import "./Pesquisa.css";
 
-const Pesquisa = () => {
+const Pesquisa = ({ filterData }) => {
+  const [pesquisa, setPesquisa] = useState("");
 
-    const [ pesquisa, setPesquisa ] = useState("");
-
-    const imprimirPesquisa = () => {
-        console.log(Pesquisa)
-    }
-
-    return (
-        <section className="container-pesquisa">
-            <input className="Pesquisa" type="text" value={pesquisa} onChange={(event) => setPesquisa(event.target.value)} placeholder="Pesquisa" />
-            <button className="btn">Pesquisar</button>
-        </section>
-    );
-}
+  return (
+    <section className="container-pesquisa">
+      <input
+        className="Pesquisa"
+        type="text"
+        value={pesquisa}
+        onChange={(event) => setPesquisa(event.target.value)}
+        placeholder="Pesquisa"
+      />
+      <button className="btn" onClick={() => filterData(pesquisa)}>
+        Buscar
+      </button>
+    </section>
+  );
+};
 
 export default Pesquisa;

@@ -1,12 +1,12 @@
 .Menu {
-    font-weight: border;
+    /* font-weight: border; */
     box-shadow: 0 2px 3px #444;
     background-color: #8f4f60;
     color: #eee;
     height: 10vh;
-    width: 100vw;
-    display: fixed;
-    position:fixed;
+    width: 100%;
+    display: fixed
+    position: absolute;
     top: 0;
     
 }
@@ -18,19 +18,28 @@
 
     height: 6vh;
     padding-left: 200px;
-    padding-right: 200px;
+    padding-right: 0px;
 }
 
 .Menu ul li {
     list-style: none;
 }
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
 
 .Link-css {
+    padding-right: 15px;
+    padding-left: 15px;
     color: #000;
     font-size: 1.5rem;
-    font-weight: border;
-    padding: 10px;
+    font-weight: bold;
+    /* padding: 10px; */
     text-decoration: none;
+}
+.Link-css:hover{
+    color: #eee;
 }
 
 .logo {
