@@ -11,7 +11,13 @@ function Nav () {
             <ul>
                 <li><img className='logo' src={Logo} /></li>
                 <Pesquisa />
-                <li><Link className='Link-css' to="/" >Home</Link></li>
+                <div>
+                    <li><Link className='Link-css' to="/" >Home</Link></li>
+                    <li><Link className='Link-css' to="/" >Destinos</Link></li>
+                    <li><Link className='Link-css' to="/" >Quem somos</Link></li>
+                    <li><Link className='Link-css' to="/" >Contato</Link></li>
+                </div>
+                
             </ul>
         </nav>
     );

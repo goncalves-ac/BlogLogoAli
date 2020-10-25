@@ -1,9 +1,9 @@
 * {
-
+	
 }
 
 .Home {
-    
+    width: 100%;
 }
 
 .cards-container {
@@ -13,6 +13,6 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    margin-top: 100px;
+	padding-top: 100px;
     width: 90%;
 }
