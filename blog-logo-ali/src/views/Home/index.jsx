@@ -1,33 +1,45 @@
-import React from "react";
-import Nav from '../../components/Nav'
-import Footer from '../../components/Footer'
-import data from '../../data.json'
+import React, { useState } from "react";
+import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
+import data from "../../data.json";
 import Sidebar from "../../components/SideBar";
-import Card from "../../components/Card"
+import Card from "../../components/Card";
 
-import './Home.css'
+import "./Home.css";
 
-function Home(){
-    return(
-        <main className="Home">      
-            <Nav />
+function Home() {
+  const [posts, setPosts] = useState(data);
 
-            <section className="cards-container">
-                {data.map((prop)=>{
-                return <Card 
-                        key={prop.id}
-                        imagem={prop.imagem}
-                        titulo={prop.titulo}
-                        descricao={prop.descricao}
-                        autor={prop.autor}
-                    />
-                })}
-            </section>
+  const filterData = (filter = "") => {
+    const filteredData = data.filter((post) =>
+      post.titulo.toLowerCase().includes(filter.toLowerCase())
+    );
 
-            <Sidebar/>
-            <Footer />
-        </main>               
-    )
+    setPosts(filteredData);
+  };
+
+  return (
+    <main className="Home">
+      <Nav filterData={filterData} />
+
+      <section className="cards-container">
+        {posts.map((prop) => {
+          return (
+            <Card
+              key={prop.id}
+              imagem={prop.imagem}
+              titulo={prop.titulo}
+              descricao={prop.descricao}
+              autor={prop.autor}
+            />
+          );
+        })}
+      </section>
+
+      <Sidebar />
+      <Footer />
+    </main>
+  );
 }
 
 export default Home;
