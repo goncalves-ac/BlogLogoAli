@@ -14,6 +14,7 @@ const Sidebar = () => {
                     <li>Viagem para NY</li>
                     <li>Viagem para Orlando</li>
                     <li>Rio de Janeiro</li>
+                    <li>Lençois Maranhenses</li>
                     <li>Viagem para Praia de Iracema</li>
                 </ul>
             </ul>

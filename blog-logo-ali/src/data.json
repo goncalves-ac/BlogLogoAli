@@ -43,6 +43,13 @@
     },
     {
         "id": 7,
+        "imagem": "https://i0.wp.com/www.destinosimperdiveis.com.br/wp-content/uploads/2018/07/di_lencoismaranhenses03.jpg?resize=1194%2C896",
+        "titulo": "Lençois Maranhenses",
+        "descricao": "Conheça o paraíso das dunas maranhenses",
+        "autor": "Rihanna"
+    },
+    {
+        "id": 8,
         "imagem": "https://i.pinimg.com/originals/57/58/10/575810e3cee377ad106baf39dec8893e.jpg",
         "titulo": "Viagem para Praia de Iracema",
         "descricao": "Fortaleza Bela",
