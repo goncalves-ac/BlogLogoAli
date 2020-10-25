@@ -14,7 +14,7 @@
   top: 10.2vh;
   right: 0vw;
   width: 15vw;
-  max-height: 100%;
+  max-height: 60%;
   background-color: rgb(240, 208, 212);
   box-shadow: 0 2px 3px #444;
   z-index: 10;
@@ -31,6 +31,7 @@
 
 .month-list p {
   padding-inline-start: 0.5em;
+  margin: 0.2em 0;
 }
 
 .sidebar li {
