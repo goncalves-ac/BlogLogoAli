@@ -24,7 +24,7 @@ function Home() {
       <Nav filterData={filterData} />
 
       <section className="cards-container">
-        {posts.length != 0 ? (
+        {posts.length !== 0 ? (
           posts.map((prop) => {
             return (
               <Card
