@@ -24,7 +24,7 @@
 .Menu ul li {
     list-style: none;
 }
-div{
+.nav-links{
     display: flex;
     justify-content: space-between;
 }

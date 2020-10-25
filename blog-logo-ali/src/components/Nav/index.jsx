@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./nav.css";
-import Logo from "../../image/logo.png";
-import Pesquisa from "../Pesquisa";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './nav.css';
+import Logo from '../../image/logo.png';
+import Pesquisa from '../Pesquisa'
 
 function Nav({ filterData }) {
   return (
@@ -12,11 +12,12 @@ function Nav({ filterData }) {
           <img className="logo" src={Logo} />
         </li>
         <Pesquisa filterData={filterData} />
-        <li>
-          <Link className="Link-css" to="/">
-            Home
-          </Link>
-        </li>
+        <div className="nav-links">
+          <li><Link className='Link-css' to="/" >Home</Link></li>
+          <li><Link className='Link-css' to="/" >Destinos</Link></li>
+          <li><Link className='Link-css' to="/" >Quem somos</Link></li>
+          <li><Link className='Link-css' to="/" >Contato</Link></li>
+        </div>
       </ul>
     </nav>
   );
