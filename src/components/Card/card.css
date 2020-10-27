@@ -1,5 +1,5 @@
 .card{
-    width: 70%;
+    width: 65vw;
     display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -13,18 +13,22 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.imagem{
-    width: 100%;
+#imagem{
+    width: 90%;
+    height: 70vh;
+
+    margin-top: 10px;
 }
 
-.titulo{
-    font-size: 24px;
+#titulo{
+    font-size: 1.5em;
 }
 
-.descricao{
-    font-size: 22px;
+#descricao{
+    font-size: 1.4em;
 }
 
-.autor{
-    font-size: 20px;
+#autor{
+    font-size: 1.25em;
+    margin-bottom: 5px;
 }
